@@ -1,0 +1,358 @@
+*
+{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.background
+{
+    width: 80vw;
+    height: 100vh;
+    background-color: rgb(48, 2, 91);
+    margin-left: 20vw;
+}
+
+.font
+{
+    font-family:'M PLUS Rounded 1c', sans-serif;
+}
+
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-evenly
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+hr.line
+{
+    border-top: 2px solid #e1cef4;
+    z-index: 500;
+}
+
+
+
+/*  main content **************** */
+.side-bar
+{
+    width: 20vw;
+    height: 100vh;
+    position: fixed;
+    
+    background-image: url("background.jpg");
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1000;
+    /* display: none; */
+}
+
+.face
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("manface.png");
+    background-size: cover;
+    border: 5px solid rgb(211, 180, 66);
+}
+
+.navigation
+{
+    width: 50%;
+    height: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-con
+{
+    font-size: 0.8rem;
+    color: white;
+}
+
+.navigation a:hover{
+    color:#c7a9e4;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-out;
+    font-size: medium;
+}
+
+
+/* home page content ******************* */
+.page-1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.page-1-con
+{
+    width: 500px;
+    height: 300px;
+    /* background: #9a58cd; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.head-1
+{
+    display: flex;
+    gap: 10px;
+}
+
+.head
+{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+#head-2
+{
+    color: #6838d4;
+}
+
+.para
+{
+    font-size: medium;
+    color: #e1cef4;
+}
+
+
+.page-1-btn
+{
+    margin-top: 25px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn
+{
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    font-size: 0.9rem;
+    background-color: aliceblue;
+    width: 143px;
+    height: 45px;
+    border-radius: 10px
+
+}
+
+#pg-1-btn-1 
+{
+    background-color: #6838d4;
+    color: rgb(48, 2, 91);
+}
+
+#pg-1-btn-1 a{
+    background-color: #6838d4;
+    color: rgb(48, 2, 91);
+}
+
+#pg-1-btn-2
+{
+    background-color: transparent;
+    color:  #e1cef4;
+    border: 2px solid #e1cef4;
+}
+
+#pg-1-btn-1:hover
+{
+    box-shadow: -3px 3px 6px 2px #e1cef4 ;
+    transition-delay:0.1s;
+    transition-timing-function: ease-in;
+}
+
+#pg-1-btn-2:hover
+{
+    background-color: #6838d4;
+    transition-delay:0.1s;
+    transition-timing-function: ease-in;
+    box-shadow: -3px 3px 6px 2px #c7a9e4;
+}
+
+
+.page-1-img
+{
+    width: 400px;
+    height: 400px;
+    background-image: url("Programming-amico\ \(1\).png");
+    background-size: cover;
+    margin-right: 100px;
+}
+
+
+/* now pag2 work *************************/
+.page-2
+{
+    display: flex;
+
+    align-items: center;
+    justify-content: start;
+    padding-left: 50px
+}   
+
+.pg-2-heading 
+{
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+
+#pg-2-head-1
+{
+    font-size: medium;
+    color: #6838d4;
+}
+
+#pg-2-head-2
+{
+    font-size:2.5rem;
+    color: white;
+}
+
+.page-2-con
+{
+    width: 850px;
+    height: 300px;
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pg-2-box
+{
+    width:250px;
+    height: 250px;
+    background-color: #a067da;
+    border-radius: 10px;
+    padding: 0px 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.box-con
+{
+    font-size: 0.8rem;
+}
+
+.icon
+{
+    width: 45px;
+    height: 45px;
+    background-color: #e1cef4 ;
+    border-radius: 10px;
+}
+
+.pg-2-head-1
+{
+    color: white;
+}
+
+.pg-2-box:hover
+{
+    box-shadow: -5px 5px 7px 5px #8539e8 ;
+    transition-delay:0.1s;
+    transition-timing-function: ease-in;
+}
+
+/* page -4 content     */
+.page-4
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 70px
+}   
+
+.pg-4-heading
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    height: 500px;
+    width: 1000px;
+}
+
+.pg-4-con-1 
+{
+    width: 440px;
+    height:420px;
+}
+
+.pg-4-content
+{
+    background-color:#a067da;
+    width: 410px;
+    height: 140px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.pg-4-con-head
+{
+    color: white;
+}
+
+.pg-4-box-head-1
+{
+    color: white;
+}
+
+.pg-4-box-head-2
+{
+    color: #6838d4;
+}
+
+.pg-4-para
+{
+    font-size: 0.85rem;
+    color: #e1cef4;
+}
+
+.pg-4-content:hover
+{
+    box-shadow: -5px 5px 7px 5px #8539e8 ;
+}
+
+/* page -5 content hai  */
+
